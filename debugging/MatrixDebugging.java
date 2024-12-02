@@ -31,8 +31,8 @@ public class MatrixDebugging {
 
         // Mostrar la matriz transpuesta
         System.out.println("\nMatriz transpuesta:");
-        for (int i = 0; i < transposedMatrix.length; i++) {
-            for (int j = 0; j < transposedMatrix[i].length; j++) {
+        for (int i = transposedMatrix.length - 1; i >= 0; i--) {
+            for (int j = 0; j < transposedMatrix.length; j++) {
                 System.out.print(transposedMatrix[i][j] + " ");
             }
             System.out.println();
